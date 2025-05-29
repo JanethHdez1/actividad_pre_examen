@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public class HelloController {
     @GetMapping("")
     public String sayHello() {
-        return "Hola mundo";
+        return "Hola mundo, ¿cómo estás?";
     }
 }
