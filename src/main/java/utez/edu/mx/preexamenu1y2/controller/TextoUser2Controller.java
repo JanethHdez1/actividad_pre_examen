@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TextoUser2Controller {
     @GetMapping("")
     public String sayHello() {
-        return "Server is running";
+        return "Textooooooo User 2";
     }
 }
